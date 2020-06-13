@@ -1,0 +1,84 @@
+:not(.eva-subiect) {
+	font-family: 'Roboto', sans-serif;
+}
+
+br, img {
+	user-select: none;
+}
+
+body {
+	padding: 10px;
+	margin: 0 auto;
+	max-width: 750px;
+}
+
+.eva-subiect {
+	padding: 10px;
+	font-family: "Times New Roman", Times, serif!important;
+	background: rgba(0, 0, 0, .02);
+	border: 1px solid #ededed;
+	border-radius: 5px;
+}
+
+.eva-subiect * {
+	margin: 0;
+}
+
+.eva-subiect p, .eva-subiect h4, .eva-align, .eva-subiect ul, .eva-subiect ol {
+	margin: 0 auto;
+	max-width: 85%;
+}
+
+.eva-subiect h4 {
+	margin: 5px auto;
+}
+
+.eva-author {
+	font-size: 12px;
+	text-align: center;
+}
+
+.eva-delim {
+	width: 90%; height: 1px;
+	background: black;
+	margin: 10px auto;
+}
+
+.eva-title {
+	text-align: center;
+}
+
+.eva-subtitle {
+	text-align: right;
+}
+
+.eva-rasp {
+	display: inline-block;
+	text-align: left;
+	width: 20%;
+}
+
+.eva-img {
+	margin: 10px auto;
+	display: block;
+	height: 100px;
+}
+
+.eva-rasp-wr {
+	display: none;
+}
+
+#eva-generbtn {
+	background: #338BFF;
+	display: block;
+	border: 2px solid #20579F;
+	width: 100%;
+	border-radius: 5px;
+	color: white;
+	padding: 10px 5px;
+}
+
+#eva-generbtn:hover {
+	background: #ddd;
+	border-color: #ccc;
+}

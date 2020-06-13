@@ -1,1 +1,27 @@
-sal
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GENEvaluare - Milioane de subiecte unice de evaluare!</title>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML'></script>
+		<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({
+			extensions: ["tex2jax.js"],
+			jax: ["input/TeX","output/HTML-CSS"],
+			tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]}
+		});
+		</script>
+		<script src="script.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=0">
+	</head>
+	<body>
+		<h1><sup>GEN</sup>Evaluare la Matematica1</h1>
+		
+		<div id="eva-generwrap">
+			<p id="eva-genermsg">Urma1toarele exercit1ii sunt generate de un algoritm s1i sunt asema1na1toare celor care s-au dat i1n anii anteriori. Putet1i ga1si modul i1n care sunt generate pe <a href='https://github.com/genevaluare/genevaluare.github.io'>GitHub</a>. Daca1 observat1i vreo eroare, va1 ruga1m sa1 o raportat1i!</p>
+			<div id="eva-generloc"></div>
+			<button id="eva-generbtn" onclick="generateSubjects(30);">Genereaz&#259; mai multe exerci&#355;ii</button>
+		</div>
+	</body>
+</html>
